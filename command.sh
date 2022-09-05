@@ -1,0 +1,2 @@
+python3 predict.py --comp --root ../test_data --ckpt_path comp2/model_20.pth --save test_out_comp.tsv --mode dump
+python3 predict.py --root ../test_data --ckpt_path 24_ll/model_10.pth --save test_out.tsv --mode dump
